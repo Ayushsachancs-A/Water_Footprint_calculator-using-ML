@@ -1,0 +1,56 @@
+
+🚀 How to Run the Project
+This guide will help you set up and run both the backend (FastAPI) and frontend (React) for the Water Footprint Calculator project.
+________________________________________
+
+1. Download the Zip File
+
+Download the file and extract it.
+open the file on VScode.
+________________________________________
+
+2. Run the Backend (FastAPI)
+
+a. In terminal install pandas
+   pip install pandas
+
+b. Navigate to Backend/myenv
+
+d. Install Required Python Packages
+   pip install fastapi uvicorn xgboost pandas
+
+d. Run the Backend Server
+	uvicorn main:app --reload
+•	The backend will start at: http://localhost:8000
+•	The main API endpoint is /predict.
+________________________________________
+ 
+
+3. Run the Frontend (React App)
+
+a. Open a New Terminal Window
+
+b. Navigate to the Frontend Directory
+    cd waterfootprint
+
+c. Install Node.js Dependencies
+      npm install
+
+d. Start the Frontend Development Server
+      npm start
+
+The frontend will start at: http://localhost:3000
+________________________________________
+4. Access the Application
+•	Open your browser and go to http://localhost:3000 to use the Water Footprint Calculator.
+•	The frontend will communicate with the backend at http://localhost:8000.
+________________________________________
+5. Troubleshooting
+•	Make sure both servers (frontend and backend) are running in separate terminal windows.
+•	If you change backend endpoints or ports, update the frontend API URLs accordingly.
+________________________________________
+You are now ready to use the Water Footprint Calculator!
+
+6. you can Go to Home page and click on 'Calculate Footprint' A page will open, enter all specific Details click on calculate it will provide you will your waterFootprint and personalised suggestion,
+you can further explore oue tips page for other Tips to save water.
+
